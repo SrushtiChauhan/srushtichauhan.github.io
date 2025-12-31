@@ -103,6 +103,10 @@
          .download-btn:hover {
          background: #162c63;
          }
+         .btn-container {
+             display: flex;
+             justify-content: flex-end;
+         }
          /* RESPONSIVE */
          @media (max-width: 768px) {
          .two-column {
@@ -116,9 +120,11 @@
    </head>
    <body>
       <div class="container">
-         <a href="Srushti_Resume.pdf" download class="download-btn">
-         Download PDF
-         </a>
+         <div class="btn-container">
+            <a href="Srushti_Resume.pdf" download class="download-btn">
+            Download PDF
+            </a>
+         </div>
          <div id="resume">
             <!-- HEADER -->
             <div class="header">
